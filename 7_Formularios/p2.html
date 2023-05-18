@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulario de compra de altavoces</title>
+  </head>
+  <body>
+    <h1>Formulario de compra de altavoces</h1>
+    <form action="#" method="POST">
+      <label for="modelo">Modelo:</label>
+      <select id="modelo" name="modelo" required>
+        <option value="R4">R4</option>
+        <option value="R5">R5</option>
+        <option value="SR1">SR1</option>
+      </select><br><br>
+      
+      <label for="potencia">Potencia máxima (entre 50 y 100):</label>
+      <input type="number" id="potencia" name="potencia" min="50" max="100" required><br><br>
+      
+      <label for="bluetooth">¿Bluetooth?</label>
+      <input type="checkbox" id="bluetooth" name="bluetooth"><br><br>
+      
+      <label for="color">Color:</label>
+      <input type="text" id="color" name="color" required><br><br>
+      
+      <input type="submit" value="Comprar">
+    </form>
+  </body>
+</html>
